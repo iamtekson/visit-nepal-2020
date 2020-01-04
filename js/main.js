@@ -25,7 +25,7 @@ Adding  Multiple tourismPlaces
         ];
 		for (var i = 0; i<tourismPlaces.length; i++){
 			eachPlace = new L.marker([tourismPlaces[i][1], tourismPlaces[i][2]]);
-			eachPlace.bindPopup(`<h3>${tourismPlaces[i][0]}</h3><p>${tourismPlaces[i][4]}</p><img src='../img/${tourismPlaces[i][3]}'>`)
+			eachPlace.bindPopup(`<h3>${tourismPlaces[i][0]}</h3><p>${tourismPlaces[i][4]}</p><img src='./img/${tourismPlaces[i][3]}'>`)
 			.addTo(map);
             eachPlace.bindTooltip(`<h3>${tourismPlaces[i][0]}</h3>`);
 		}
