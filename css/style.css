@@ -1,4 +1,15 @@
 html, body {
+    position: relative;
     margin: 0;
     padding: 0;
+}
+
+.side-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 100vh;
+    z-index: 1000;
+    background-color: brown;
 }
